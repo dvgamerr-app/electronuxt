@@ -1,0 +1,36 @@
+{
+  "name": "electronuxt",
+  "version": "1.0.0",
+  "description": "Create an Electron app that serves a Nuxt.js app",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/touno-io/electronuxt.git"
+  },
+  "author": "Kananek Thongkam <info@touno.io>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "electron main.js",
+    "build": "nuxt generate",
+    "start": "cross-env NODE_ENV=production electron main.js"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "electron": "^3.0.12",
+    "express": "^4.14.1",
+    "nuxt": "^2.3.4"
+  },
+  "bugs": {
+    "url": "https://github.com/touno-io/electronuxt/issues"
+  },
+  "homepage": "https://github.com/touno-io/electronuxt#readme",
+  "devDependencies": {},
+  "keywords": [
+    "electronjs",
+    "nuxtjs",
+    "vuejs",
+    "window",
+    "app",
+    "javascript"
+  ]
+}
