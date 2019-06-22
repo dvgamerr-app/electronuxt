@@ -1,4 +1,4 @@
-<template>
+<template lang="html">
   <div>
     <p>Hi from</p>
     <nuxt-link to="/">Home page</nuxt-link>
